@@ -23,7 +23,7 @@ export default function Sidebar({}: SidebarProps) {
           width={122}
           height={25}
           src="/icons/logo.svg"
-          alt="logo"
+          alt="company logo"
         />
         <ul className="space-y-7">
           <SidebarItem
