@@ -13,7 +13,7 @@ const headers = [
   'Status',
   'Promotion',
   'Country',
-  'Join date',
+  'Joined date',
 ];
 
 export default function CompanyTable({}: CompanyTableProps) {
@@ -29,7 +29,7 @@ export default function CompanyTable({}: CompanyTableProps) {
         <thead>
           <tr>
             {headers.map((header, i) => (
-              <th key={i} className="p-5 text-sm font-light text-gray-900">
+              <th key={i} className="pb-5 text-sm font-light text-gray-900">
                 {header}
               </th>
             ))}
